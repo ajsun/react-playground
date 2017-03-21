@@ -1,0 +1,32 @@
+.pointer {
+    cursor: pointer;
+    cursor: hand;
+}
+
+.no-border-radius {
+    border-radius: 0px !important;
+}
+
+.border-black {
+    border: 1px solid #aaa;
+}
+
+.list-twos:nth-child(2n) {
+    border-left: 0px;
+}
+
+div {
+    /*border: 1px solid tomato;*/
+}
+
+div.tooltip {
+  position: absolute;
+  text-align: left;
+  /*width: 60px;*/
+  /*height: 28px;*/
+  padding: 2px;
+  font: 12px sans-serif;
+  border: 0px;
+  border-radius: 8px;
+  pointer-events: none;
+}
